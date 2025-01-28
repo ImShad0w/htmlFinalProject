@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buer</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+        .gray {
+            background-color: gray;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1> <mark>Exer3</mark> Es tracta de fer la seguent taula:</h1>
+    <table>
+        <tr>
+            <th></th>
+            <th colspan="3">
+                <img src="mp4_1.png" alt="iPod 1" width="50" height="50">
+            </th>
+            <th colspan="2">
+                <img src="mp4_2.png" alt="iPod 2" width="50" height="50">
+            </th>
+        </tr>
+        <tr>
+            <td class="gray">Capacitat</td>
+            <td class="highlight">2GB</td>
+            <td class="highlight">4GB</td>
+            <td class="highlight">8GB</td>
+            <td>32GB</td>
+            <td>2GB</td>
+        </tr>
+        <tr>
+            <td class="gray">Colors</td>
+            <td class="highlight" style="font-weight: bold;">Blanc</td>
+            <td class="highlight">
+                <ul>
+                    <li>Negre</li>
+                    <li>Rosa</li>
+                    <li>Daurat</li>
+                </ul>
+            </td>
+            <td class="highlight" style="font-weight: bold;">Negre</td>
+            <td colspan="2">
+                <ul>
+                    <li>Negre</li>
+                    <li>Blanc</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td class="gray">Pantalla</td>
+            <td colspan="3" class="highlight" style="font-weight: bold;">3 polzades</td>
+            <td colspan="2" style="font-weight: bold;">7 polzades</td>
+        </tr>
+        <tr>
+            <td class="gray" rowspan="2">Temps de càrrega</td>
+            <td colspan="3" rowspan="2" class="highlight" style="font-weight: bold;">1 hora</td>
+            <td colspan="2" style="font-weight: bold;">5 hores</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="font-weight: bold;">30 minuts per a 75%</td>
+        </tr>
+    </table>
+</body>
+</html>

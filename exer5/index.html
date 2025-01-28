@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>Formulari d'inscripcio </h1>
+   <p>Els camps  marcats amb (*) son obligatoris</p>
+   <form action="http://daw.inspedralbes.cat/form/action.php">
+   <fieldset>
+    <legend>Dades Personals</legend>
+    <label for="name">(*) Nom i cognoms: </label>
+    <input type="text" class="name" required name="name" placeholder="Escriu el teu nom"><br>
+    <label for="date">Data Naixament: </label>
+    <input type="date"><br>
+    <label for="email">Email:  </label>
+    <input type="email" multiple>
+    <p>Genere: </p>
+    <input type="radio" name="genere" value="fem">Femeni<br>
+    <input type="radio" name="genere" value="mas">Masculi<br>
+    <input type="radio" name="genere" value="mentall">Mental Illnes<br>
+    <label for="poblacio">Poblacio</label>
+    <select name="poblacio">
+        <option>--insereix--</option>
+        <option>Pedralbes</option>
+        <option>Pep Ventura</option>
+        <option>El qinto pino</option>
+    </select>
+   </fieldset>
+   <br>
+   <input type="checkbox">Vindras a dinar?<br>
+   <p>Provinices on t'agradaria viure: </p>
+   <select size="4">
+    <option>Lleida</option>
+    <option>Girona</option>
+    <option>Tarragona</option>
+    <option>Barcelona</option>
+   </select>
+   <p>Observacions</p><br>
+   <textarea placeholder="Pots posar aqui la observacio, fes que quest requadre no es pugui redimensionar!"></textarea><br>
+   <button>Aquest boto no fa res</button><br>
+   <button type="reset">Aquest boto restableix el formulari</button><br>
+   <button type="submit">Aquest boto envia el formulari a l'action del form</button><br>
+   </form>
+</body>
+</html>

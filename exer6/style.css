@@ -1,0 +1,24 @@
+fieldset > legend{
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    text-align: center;
+}
+
+fieldset:nth-child(1){
+    background-color: aqua;
+}
+
+fieldset:nth-child(2){
+    background-color: salmon;
+}
+
+fieldset:nth-child(3){
+    background-color: gray;
+}

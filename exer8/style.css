@@ -1,0 +1,61 @@
+img{
+    width: 400px;
+    position: sticky;
+    float: right;
+    top:0;
+    margin: 20px;
+}
+
+header{
+    background-color: salmon;
+    border: 1px solid black;
+    text-align: center;
+}
+
+nav{
+    background-color: lightseagreen;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+section{
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+article{
+    background-color: white;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+footer{
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+nav > *{
+    background-color: yellow;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    border: solid black 2px;
+    color: black;
+    font-weight: bold;
+}
+
+header:hover{
+    background-color: tomato;
+}
+
+nav > *:hover{
+    background-color: wheat;
+}
+
+input:focus{
+    background-color: violet;
+}

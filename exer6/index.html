@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>FULL D'INSCRIPCIO</h1> 
+   <h1>EN ELS CICLES FORMATIUS DE GRAU SUPERIOR</h1> 
+   <form action="https://daw.inspedralbes.cat/form/action.php">
+    <fieldset>
+        <legend>Dades personals</legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="Nom">Nom: </label><br>
+                    <input type="text" name="Nom">
+                </td>
+                <td>
+                    <label for="Cognom">Cognom: </label><br>
+                    <input type="text" name="Cognom">
+                </td>
+                <td>
+                    <label for="DNI">DNI: </label><br>
+                    <input type="text" name="DNI">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="localitatNaixament">Localitat de naixament: </label><br>
+                    <input type="text" name="localitatNaixament">
+                </td>
+                <td>
+                    <label for="provincia">Provincia: </label><br>
+                    <select name="provincia">
+                        <option>Selecciona-</option>
+                        <option>Barcelones</option>
+                        <option>Tarragona</option>
+                        <option>Madrid</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="dataNaixament">Data naixament: </label><br>
+                    <input type="date" name="dataNaixament">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="adreca">Adreça</label><br>
+                    <input type="text" name="adreca">
+                </td>
+                <td>
+                    <label for="codiPostal">Codi Postal: </label><br>
+                    <input type="number" name="codiPostal">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>Mode d'acces</legend>
+        <ul>
+            <li><input type="radio" name="Altres">Directe</li>
+            <ul>
+                <li><input type="radio" name="Altres">Batxillerat</li>
+                <li><input type="radio" name="Altres">Grau Mitja</li>
+                <li><input type="radio" name="Altres">Altres<input type="text" name="altres_info"></li>
+            </ul>
+            <li><input type="radio" name="Altres">Prova lliure</li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend>Documentacio Adjunatacio</legend>
+        <input type="checkbox">Fotocopia DNI <input type="file" name="fileDni"><br>
+        <input type="checkbox">Certificat academic <input type="file" name="fileCertificat"><br>
+        <input type="checkbox">Altres documents
+    </fieldset>
+    <button type="submit">Enviar solicitud</button>
+   </form>
+</body>
+</html>

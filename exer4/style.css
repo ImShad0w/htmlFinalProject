@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    font-family: "Open Sans";
+}
+table{
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 1px black;
+}
+
+tr, td, th{
+    border: black solid 2px;
+}
+
+td{
+    height: 80px;
+    width: 40px;
+}
+
+.prog{
+    text-align: center;
+    background-color:#E47B83;
+}
+
+.ang{
+    text-align: center;
+    background-color: #617FB2;
+}
+
+.si{
+    text-align: center;
+    background-color: #00C01D;
+}
+
+.desp{
+    text-align: center;
+    background-color: #C1BDB6;
+}
+
+.bd{
+    text-align: center;
+    background-color: #57FFFF;
+}
+
+.dis{
+    text-align: center;
+    background-color: #FFFF00;
+}
+
+.marq{
+    text-align: center;
+    background-color: #EB7AD4;
+}
+
+.tut{
+    color: white;
+    text-align: center;
+    background-color: #FF0042;
+}
+
+.ipo{
+    text-align: center;
+    background-color: #A1A0FF;
+}
+
+td u{
+    font-weight: bold;
+}
+
+.gray{
+    border-right: solid black;
+    background-color: #E0E0E0;
+}
+
+.hour{
+    font-size: 12px;
+    text-align: center;
+}
+
+.table-title{
+    text-align: left;
+    font-size: 24px;
+}
+
+thead{
+    border-bottom: solid black;
+}

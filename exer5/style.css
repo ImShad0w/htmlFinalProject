@@ -1,0 +1,9 @@
+textarea{
+    width:250px;
+    height:100px;
+    resize: none;
+}
+
+.name::placeholder{
+    color:red;
+}

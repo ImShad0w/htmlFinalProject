@@ -1,6 +1,9 @@
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geologica:wght@100..900&display=swap');
 
-
+body{
+  font-family: "Geologica", sans-serif;
+}
 nav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 180px; /* Set the width of the sidebar */
@@ -8,7 +11,7 @@ nav {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #7D5BA6;
+  background-color: #643173;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
   color: #EAEAEA;

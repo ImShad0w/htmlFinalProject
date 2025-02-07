@@ -1,9 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geologica:wght@100..900&display=swap');
 
 body{
   font-family: "Geologica", sans-serif;
 }
+
 nav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 180px; /* Set the width of the sidebar */
@@ -17,7 +17,6 @@ nav {
   color: #EAEAEA;
 }
 
-
 nav{
   padding: 20px;
   color: #EAEAEA;
@@ -25,7 +24,8 @@ nav{
 
 .links >  a{
   color: #EAEAEA;
-  text-decoration: none;
+   font-size: 1.5em;
+   text-decoration: none;
 }
 
 .links{
@@ -34,12 +34,86 @@ nav{
   gap: 10px;
 }
 
-
-
 main {
+  display:flex;
+  flex-direction: column;
   margin-left: 220px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
+}
+
+.hero-section{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.excercises{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #EAEAEA;
+  gap: 20px;
+  padding: 20px;
 }
 
 
 
+.first-row, .second-row{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  background-color: #fff;
+  padding: 20px;
+  transition: all 0.4s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.item:hover {
+  animation: floatWithShadow 3s ease-in-out infinite;
+  cursor: pointer;
+  transform-origin: center;}
+h1{
+  display: flex;
+  justify-content:center;
+}
+
+.projects{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EAEAEA;
+  gap: 20px;
+  padding: 20px;
+}
+
+@keyframes floatWithShadow {
+  0% {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.links a:hover{
+  background-color: #50275c 
+}
+
+footer{
+  display: flex;
+  justify-content: center
+}
